@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form>
+        <!-- The for attribute work with the equiu=valent id value -->
+        <label for="firstname">
+            Entire your name
+        </label>
+        <br>
+        <input type="text" id="firstname"/>
+        <br>
+        <br>
+        <label for="age"> Enter your age</label>
+        <br>
+        <input type="number" id="age">
+        <br>
+        <br>
+        <label> Select your date</label>
+        <br>
+        <input type="date">
+        <br>
+        <br>
+        <label for="sex">Sex</label>
+        <br>
+        <!-- radio inputs of the same category must have same name -->
+        <input type="radio" name="sex" id="male" value="male"/>
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="sex" id="others">
+        <label for="others">Rather not say</label>
+        <br>
+        <br>
+        <label for="places">Place visited</label>
+        <br>
+        <input type="checkbox" name="places" id="lagos">
+        <label for="lagos">Lagos</label>
+        <br>
+        <input type="checkbox" name="places" id="ibadan">
+        <label for="ibadan">Ibadan</label>
+    </form>
+</body>
+</html>
