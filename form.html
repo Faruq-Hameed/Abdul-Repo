@@ -12,12 +12,12 @@
             Entire your name
         </label>
         <br>
-        <input type="text" id="firstname"/>
+        <input type="text" id="firstname" placeholder="type your firstname"/>
         <br>
         <br>
         <label for="age"> Enter your age</label>
         <br>
-        <input type="number" id="age">
+        <input type="number" id="age" placeholder="entire your age">
         <br>
         <br>
         <label> Select your date</label>
@@ -28,23 +28,34 @@
         <label for="sex">Sex</label>
         <br>
         <!-- radio inputs of the same category must have same name -->
-        <input type="radio" name="sex" id="male" value="male"/>
-        <label for="male">Male</label>
-        <br>
-        <input type="radio" name="sex" id="female" value="female">
-        <label for="female">Female</label>
-        <br>
-        <input type="radio" name="sex" id="others">
-        <label for="others">Rather not say</label>
+         <input type="radio" name="sex" id="male" value="male">
+         <label for="male">Male</label>
+         <br>
+         <input type="radio" name="sex" id="female" value="female">
+         <label for="female">Female</label>
+         <br>
+         <input type="radio" name="sex" id="others" value="others">
+         <label for="others">Rather not say</label>
         <br>
         <br>
         <label for="places">Place visited</label>
         <br>
-        <input type="checkbox" name="places" id="lagos">
+        <input type="checkbox" name="places" id="lagos" value="lagos">
         <label for="lagos">Lagos</label>
         <br>
-        <input type="checkbox" name="places" id="ibadan">
+        <input type="checkbox" name="places" id="ibadan" value="ibadan">
         <label for="ibadan">Ibadan</label>
+        <br>
+        <br>
+        <label for="about-you"> Tell us about you</label>
+        <br>
+        <textarea name="about-you" id="about-you" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+          <a href="./index.html">
+            <input type="button" value="Submit">
+        </a>
+        <br>
     </form>
 </body>
 </html>
