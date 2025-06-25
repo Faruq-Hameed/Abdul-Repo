@@ -6,13 +6,13 @@
     <title>HTML Form</title>
 </head>
 <body>
-    <form>
+    <form action="./submit.html" >
         <!-- The for attribute work with the equiu=valent id value -->
         <label for="firstname">
             Entire your name
         </label>
         <br>
-        <input type="text" id="firstname" placeholder="type your firstname"/>
+        <input type="text" id="firstname" placeholder="type your firstname" required/>
         <br>
         <br>
         <label for="age"> Enter your age</label>
@@ -22,7 +22,7 @@
         <br>
         <label> Select your date</label>
         <br>
-        <input type="date">
+        <input type="date" required>
         <br>
         <br>
         <label for="sex">Sex</label>
@@ -34,28 +34,33 @@
          <input type="radio" name="sex" id="female" value="female">
          <label for="female">Female</label>
          <br>
-         <input type="radio" name="sex" id="others" value="others">
+         <input type="radio" name="sex" id="others" value="others" >
          <label for="others">Rather not say</label>
         <br>
         <br>
-        <label for="places">Place visited</label>
+        <label for="places" >Place visited</label>
         <br>
-        <input type="checkbox" name="places" id="lagos" value="lagos">
+        <input type="checkbox" name="places" id="lagos" value="lagos" required>
         <label for="lagos">Lagos</label>
         <br>
         <input type="checkbox" name="places" id="ibadan" value="ibadan">
         <label for="ibadan">Ibadan</label>
         <br>
+         <input type="checkbox" name="places" id="benin" value="benin" checked>
+        <label for="benin">Benin</label>
+        <br>
         <br>
         <label for="about-you"> Tell us about you</label>
         <br>
-        <textarea name="about-you" id="about-you" cols="30" rows="10"></textarea>
+        <textarea name="about-you" id="about-you" cols="30" rows="10" placeholder="what is on your mind?"></textarea>
         <br>
         <br>
-          <a href="./index.html">
-            <input type="button" value="Submit">
-        </a>
+
+          <!-- <a href="./index.html"> -->
+            <!-- <input type="button" value="Submit"> -->
+        <!-- </a> -->
         <br>
+        <button>Submit</button>
     </form>
 </body>
 </html>
